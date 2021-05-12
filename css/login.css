@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+	width: 100%;
+	height: 100%;
+	/* overflow: auto; */
+	  font-family: "Poppins", sans-serif;
+}
+
+.box {
+	position: fixed;
+	background: url(../img/bg.png );
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.box-small {
+	width: 360px;
+	height: 410px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	border: 1px;
+	/*这里是表单的外边框*/
+	border-radius: 20px;
+}
+
+.username,
+.password {
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 5px;
+	outline: rgb(6, 183, 153);
+	box-sizing: border-box;
+	border: 0.1px solid rgb(6, 183, 153);
+	padding-left: 5px;
+	/*设置输入框内placeholder属性左边距*/
+}
+
+
+.title {
+	margin: 5px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin: 20px;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+
+.check {
+	text-align: left;
+	padding: 20px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.button {
+	width: 300px;
+	height: 40px;
+	background-color: rgb(6,183,153);
+	color: white;
+	border: none;	/*无边框*/
+	border-radius: 5px;		/*圆角*/
+	font-size: 1.2em;	/*字体大小*/
+	outline: none;
+}
+
+.forget {
+	text-align: left;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.forget>a {
+	color: rgb(6,183,153);
+	text-align: left;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+.other {
+	background-color: #f0f6ff;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	line-height: 40px;
+	border-radius: 20px;
+}
+
+.other>a {
+	color: rgb(6,183,153);
+	font-size: 14px;
+	text-decoration: none;
+	margin: 10px;
+}
+
+.other>span {
+	color: rgb(6,183,153);
+}

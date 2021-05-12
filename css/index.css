@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	color: #333;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	width: 100%;
+	height: 80px;
+	box-shadow: 2px 3px 5px #ccc;
+}
+
+.public-width {
+	width: 1200px;
+	margin: auto;
+}
+
+.nav .public-width {
+	display: flex;
+	height: 80px;
+	align-items: center;
+	justify-content: start;
+}
+
+.nav-logo {
+	width: auto;
+	height: 60px;
+}
+
+.nav-logo img {
+	display: block;
+	width: auto;
+	height: 100%;
+}
+
+.nav-list {
+	margin-left: 80px;
+}
+
+.nav-list ul {
+	display: flex;
+	height: 100%;
+	justify-content: start;
+}
+
+.nav-list ul li.active a {
+	color: #2555ff;
+}
+
+.nav-list ul li {
+	width: auto;
+	padding: 0 20px;
+}
+
+.nav-list ul li a {
+	color: #333;
+}
+
+.nav-list ul li a:hover {
+	color: #2555ff;
+}
+
+.banner img {
+	display: block;
+	margin-top: 10px;
+	height: 320px;
+	width: 100%;
+	object-fit: cover;
+	/*图片往四周拉伸时自适应*/
+}
+
+.box-one {
+	margin: 20px 0;
+}
+
+.box-one-title {
+	border-bottom: 1px solid #000000;
+}
+
+.box-one-title h3 {
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #000000;
+}
+
+.box-one-list ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box-one-list ul li {
+	cursor: pointer;
+	/*鼠标放上去变为小手*/
+	width: 23%;
+	margin: 10px 0;
+	border: 1px solid #efefef;
+	border-radius: 10px;
+}
+
+.box-one-list ul li:hover {
+	box-shadow: 2px 3px 5px #ccc;
+}
+
+.box-one-list-img {
+	width: 100%;
+	height: 180px;
+
+}
+
+.box-one-list-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* 当图片尺寸太大放不下时，自动向四周拉伸*/
+	border-radius: 10px;
+}
+
+.box-one-list-text {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	/*十个像素的内边距*/
+
+}
+
+.box-l-t-l span {
+	color: #888;
+	font-size: 12px;
+}
+
+.box-l-t-r a {
+	display: inline-block;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 12px;
+	background: linear-gradient(270deg, #2254f4, #406dff);
+	box-shadow: 0 12px 30px 0 rgba(34, 84, 244, .2);
+	/*按钮背景和阴影*/
+}
+
+.footer {
+	width: 100%;
+	height: 120px;
+	background: #333;
+
+}
+
+.footer p {
+	color: #888888;
+}
+
+.footer-friendship-link {
+	line-height: 40px;
+}
+
+.footer-friendship-link-web {
+	color: #888888;
+	text-align: left;
+
+}
+
+.footer-friendship-link-web a:hover {
+	color: #2254f4;
+}
+
+.footer-contact-us {
+	text-align: right;
+	margin-right: -100px;
+	line-height: 40px;
+}
+
+.footer-contact-us img {
+	width: 60px;
+	height: 60px;
+	margin: -20px auto;
+	text-align: left;
+}
+
+.footer-Copyright {
+	text-align: center;
+	line-height: 40px;
+}
+
+.footer-Copyright img {
+	margin: auto auto;
+}
+
+.footer-Copyright a {
+	color: #888888;
+}
+
+.footer-Copyright a:hover {
+	color: #2254f4;
+}
